@@ -1,0 +1,62 @@
+.mainTable {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cell {
+    width: 15px;
+    height: 15px;
+    border: 1px black solid;
+}
+
+.figureUnit {
+    background: black;
+}
+.figureInfoUnit {
+    background: black;
+}
+.nextFigureBlock {
+    width: 75px;
+    height: 61px;
+    margin: 0 auto;
+}
+.nextFigureLabel {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.infoTable {
+    width: 174px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px black solid;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cellInfo {
+    width: 15px;
+    height: 15px;
+}
+.finishInfo {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    background: red;
+    border-radius: 5px;
+}
+
+.buttonPause, .buttonStart {
+    width: 170px;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    margin: 10px 2px;
+}

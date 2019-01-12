@@ -1,4 +1,4 @@
-    //Глобальные переменные___________________
+//Глобальные переменные___________________
 var gameIsRunning = false;
 var d = document;
 var figureTimer;

@@ -2,18 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>Title</title>
 </head>
 <body>
-<div class="mainTable">
-    <div class="gameTable"></div>
-    <div class="infoTable"></div>
-    <div class="finishInfo"></div>
+<div class="game">
+    <div class="mainTable">
+        <div class="gameTable"></div>
+        <div class="infoTable"></div>
+        <div class="finishInfo"></div>
+        <div class="control">
+            <div class="info">Управление</div>
+            <div class="up_buttons">
+                <i class="far fa-caret-square-up fa-5x"></i>
+            </div>
+            <div class="other_buttons">
+                <i class="far fa-caret-square-left fa-5x"></i>
+                <i class="far fa-caret-square-down fa-5x"></i>
+                <i class="far fa-caret-square-right fa-5x"></i>
+            </div>
+        </div>
+    </div>
+    <div class="button_wrap">
+        <input type="button" value="Новая игра" class="buttonStart">
+        <input type="button" class="buttonPause">
+    </div>
 </div>
-<input type="button" value="Новая игра" class="buttonStart">
-<input type="button"  class="buttonPause">
-
 </body>
 </html>

@@ -1,9 +1,52 @@
+.game {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .mainTable {
     width: max-content;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
+}
+
+.game_wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.control {
+    width: 300px;
+    align-self: center;
+    margin: auto 20px;
+}
+
+.info {
+    font-family: monospace, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+.up_buttons,
+.other_buttons {
+    text-align: center;
+}
+
+.button_wrap {
+    margin: 70px auto;
+}
+
+input:active {
+background: red;
 }
 
 .cell {
